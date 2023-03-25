@@ -1,0 +1,12 @@
+# Comments start with a pound sign
+
+# Ignore all .log files
+*.pt
+
+# Except for debug.log
+
+
+# Ignore build directory
+
+
+# Except for build/foo.txt
