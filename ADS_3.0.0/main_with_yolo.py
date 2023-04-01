@@ -259,6 +259,23 @@ while True:
             # Print time (inference + NMS)
             # print(f'({(1E3 * (t2 - t1)):.1f}ms) Inference, ({(1E3 * (t3 - t2)):.1f}ms) NMS')
 
+            '''
+            COCO Label:
+            PERSON = 0
+            BICYCLE = 1
+            CAR = 2
+            MOTORBIKE = 3
+            AEROPLANE = 4
+            BUS = 5
+            TRAIN = 6
+            TRUCK = 7
+            BOAT = 8
+            TRAFFIC_LIGHT = 9
+            FIRE_HYDRANT = 10
+            STOP_SIGN = 11
+            PARKING_METER = 12
+            '''
+
             # Stream results
             if view_img:
                 cv2.imshow("Car Detection", yoloSrc)
